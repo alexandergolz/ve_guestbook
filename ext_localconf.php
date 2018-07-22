@@ -20,7 +20,18 @@ RTE.config.tx_veguestbook_entries.entry {
 }
 ');
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPItoST43($_EXTKEY, 'pi1/class.tx_veguestbook_pi1.php', '_pi1', 'list_type', 0);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(
+    '
+plugin.tx_veguestbook_pi1 = USER_INT
+plugin.tx_veguestbook_pi1 {
+    userFunc = Simonschaufi\VeGuestbook\Pi1->main
+}
+
+tt_content.list.20.ve_guestbook_pi1 = < plugin.tx_veguestbook_pi1
+    '
+);
+
+
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
     $_EXTKEY,
     'setup',
