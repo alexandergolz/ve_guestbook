@@ -1,5 +1,4 @@
 plugin.tx_veguestbook_pi1 {
-	userFunc = tx_veguestbook_pi1->main
 	templateFile = {$plugin.tx_veguestbook_pi1.file.templateFile}
 	teasercut = 50
 	wordcut = 100

@@ -1,4 +1,6 @@
 <?php
+namespace Simonschaufi\VeGuestbook;
+
 /***************************************************************
  * Copyright notice
  *
@@ -39,10 +41,11 @@ use TYPO3\CMS\IndexedSearch\Indexer;
  * @package TYPO3
  * @subpackage ve_guestbook
  */
-class tx_veguestbook_pi1 extends AbstractPlugin
+class Pi1 extends AbstractPlugin
 {
     public $prefixId = 'tx_veguestbook_pi1'; // Same as class name
-    public $scriptRelPath = 'pi1/class.tx_veguestbook_pi1.php'; // Path to this script relative to the extension dir.
+    // @TODO find proper solution to load the correct language file
+    public $scriptRelPath = 'pi1/dummypathforlanguagefile.php'; // Path to this script relative to the extension dir.
     public $extKey = 've_guestbook'; // The extension key.
 
     /**
