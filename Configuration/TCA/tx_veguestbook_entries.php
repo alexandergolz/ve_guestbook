@@ -52,7 +52,7 @@ return [
                   'allowLanguageSynchronization' => '1'
                 ],
                 'type' => 'input',
-                'size' => '10',
+                'size' => 10,
                 'eval' => 'datetime',
                 'checkbox' => '0',
                 'default' => '0'
@@ -67,7 +67,7 @@ return [
                   'allowLanguageSynchronization' => '1'
                 ],
                 'type' => 'input',
-                'size' => '10',
+                'size' => 10,
                 'eval' => 'datetime',
                 'checkbox' => '0',
                 'default' => '0'
@@ -78,8 +78,8 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.firstname',
             'config' => [
                 'type' => 'input',
-                'size' => '30',
-                'max' => '25',
+                'size' => 30,
+                'max' => 25,
                 'eval' => 'trim',
             ]
         ],
@@ -88,7 +88,7 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.surname',
             'config' => [
                 'type' => 'input',
-                'size' => '30',
+                'size' => 30,
                 'eval' => 'trim',
             ]
         ],
@@ -98,8 +98,8 @@ return [
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
-                'size' => '30',
-                'max' => '50',
+                'size' => 30,
+                'max' => 50,
                 'eval' => 'trim',
                 'fieldControl' => [
                     'linkPopup' => [
@@ -116,8 +116,8 @@ return [
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
-                'size' => '30',
-                'max' => '2083',
+                'size' => 30,
+                'max' => 2083,
                 'fieldControl' => [
                     'linkPopup' => [
                         'options' => [
@@ -133,8 +133,8 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.place',
             'config' => [
                 'type' => 'input',
-                'size' => '30',
-                'max' => '50',
+                'size' => 30,
+                'max' => 50,
                 'eval' => 'trim',
             ]
         ],
@@ -143,8 +143,8 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.entry',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5',
+                'cols' => 30,
+                'rows' => 5,
             ]
         ],
         'entrycomment' => [
@@ -152,8 +152,8 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.entrycomment',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5',
+                'cols' => 30,
+                'rows' => 5,
             ]
         ],
         'remote_addr' => [
@@ -161,8 +161,8 @@ return [
             'label' => 'LLL:EXT:ve_guestbook/Resources/Private/Language/locallang_db.xml:tx_veguestbook_entries.remote_addr',
             'config' => [
                 'type' => 'input',
-                'size' => '30',
-                'max' => '50',
+                'size' => 30,
+                'max' => 50,
                 'eval' => 'trim',
             ]
         ],
